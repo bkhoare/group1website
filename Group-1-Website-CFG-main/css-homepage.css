@@ -1,0 +1,113 @@
+html, body {
+    width: 100%;
+}
+
+head, body, footer {
+    font-family: 'Nunito', sans-serif;
+}
+
+ /*The CSS for the flex container for the images*/
+
+.imageContainer {
+    display: flex;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+/* Individual holder for images */
+.column {
+    position: relative;
+    height: auto;
+    width: 25%;
+}
+
+/* Greyscale hover for images*/ 
+.column:hover {
+    filter: grayscale(100%);
+}
+
+nav {
+    background-color: white;
+}
+
+.homepageTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainTitle, .mainSubtitle {
+    font-size: 100px;
+    color: white;
+}
+
+.mainSubtitle {
+    font-size: 20px;
+}
+
+.animalButtons {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content:space-around;
+    position: absolute;
+    bottom: 80;
+    z-index: 3;
+    margin-top: -7%;
+
+}
+
+.buttonSingular {
+    display: flex;
+    padding: 20px;
+    border: none;
+    background-color: white;
+}
+
+.buttonSingular:hover {
+    display: flex;
+    padding: 20px;
+    border: none;
+    background-color: lightgrey;
+}
+
+/* Pet names and backstories!  */
+.petOne, .petTwo, .petThree, .petFour {
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    width: 20%;
+    padding: 5px;
+    display: block;
+}
+
+.petOne {
+    margin-right: 75%;
+    margin-top: 3%;
+ }
+ 
+ .petTwo {
+  margin-right: 25%;
+  margin-top: 3%;
+ }
+ 
+ .petThree {
+  margin-left: 28.5%;
+  margin-top: 3%;
+ }
+ 
+ .petFour {
+   margin-left: 77%;
+   margin-top: 2%;
+ }
+
+ /* Mobile Responsive Images*/
+ @media only screen and (max-width: 400px) {
+     .petOne, .petTwo, .petThree, .petFour {
+         font-size: 0.5rem;
+     }
+ }

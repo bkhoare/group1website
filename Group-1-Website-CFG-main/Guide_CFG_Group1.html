@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <!-- Bootstrap CSS bundle-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+    <!-- Code to make it work on phones too-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Our stylesheet-->
+        <link rel="stylesheet" href="css-guide.css">
+
+        <!--- font family: Nunito (we can change this, just put in for now)-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+        <title>About Us</title>
+
+
+        <!-- nav bar code with bootstrap-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <!--- Logo can be put below (where RPA text is, we can use img src)-->
+                    <a class="navbar-brand" href="index.html">Home</a>
+                    <img src="assets/logo.png">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Find a Pet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Happy Endings!</a>
+                        </li>
+                        <div class="contactButton">
+                            <button type="button" class="btn btn-outline-dark">Contact Us</button>
+                        </div>
+                      </ul>
+                </div>
+          </div>
+      </nav>
+      <!--Script for form-->
+      <script>
+        function submitInfo() {
+            document.getElementById("allForms").innerHTML = "Thank you for submitting your information. Our team will respond to you as soon as possible."
+        }
+    </script>
+
+    </head>
+    <body>
+      <!--- search form--->
+      <form>
+        <!--- insert code for search bar--->
+      </form>
+      
+
+      <!--- Title over background image-->
+      <div class="adoptioninfovideo-container">
+      <div class="adoptioninfo-container" >
+      <div class = "backgroundImage">
+        <img src="#">
+      </div>
+          <div class="Title">
+            <h3 class="mainTitle">Our Guide to Adoption</h3>
+          </div>
+          <div class="paragraph-container">
+            <p class="paragraph">We know finding the perfect companion can be difficult. Our guide helps make your decision easier.</p>
+          </div>
+
+        <!--- Buttons--->
+      <div class = "button-container">
+        <div class="button-faqs"><button type="button" class="btn btn-outline-dark">Guide</button> </div>
+        <div class="button-meetourteam"><button type="button" class="btn btn-outline-dark">Meet our Team</button></div>
+      </div>
+      </div>
+        <!--- Youtube Video--->
+      <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Sjnf0bZsXOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+      </div>
+    </div>
+    <main class ="background">
+        <!--Testimonials-->
+      <div>
+        <div class="testimonialstitle-container">
+        <h2>Read Our Testimonials</h2>
+        </div>
+        <div class="testimonials-container">
+        <div class="sam">
+        <div class ="sam-backroundimage">
+          <img width="450" height="300" src="data:image/jpeg;base64,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">
+        </div class="sambutton">
+        <button type="button" class="btn btn-light">Sam</button>
+        </div>
+        <div class="tom">
+        <div class ="tom-backgroundimage">
+          <img width="450" height="300" src="https://media.istockphoto.com/photos/cat-portrait-picture-id468583653?k=20&m=468583653&s=612x612&w=0&h=9UQjOAqQkG05ACQn22Tnit806mwgSrxPIP_L5BSwXrk=">
+        </div class="tombutton">
+        <button type="button" class="btn btn-light">Tom</button>
+        </div>
+        <div class="nala">
+        <div class ="nala-backgroundimage">
+          <img width="450" height="300" src= "data:image/jpeg;base64,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">
+        </div class="nala">
+        <button type="button" class="btn btn-light">Nala</button>
+        </div>
+        </div>
+      </div>
+      <!---Form-->
+      <div class="allForms" id="allForms">
+        <form>
+            <div class="nameForms">
+              <div class="formtext">
+                <h3 class="formtitle">Want More Information?</h3>
+                <p class="forminfo">Please fill in your details below so one of our team can contact you:</p>
+                <p class="requiredfields">required fields are marked with a *</p>
+              </div>
+                <label for="fname">First Name*:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+            </div>
+            <div class="emailPhoneForms">
+                <label for="email">Email*:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="phoneNumber">Phone Number*:</label><br>
+                <input type="tel" id="phoneNumber" name="phoneNumber"><br>
+            </div>
+            <div class="animalChoice">
+                <p>Which type of animal are you interested in adopting?*:</p>
+                <input type="radio" id="dogs" name="animal_choice" value="dogs">
+                <label for="dogs">Dogs</label><br>
+                <input type="radio" id="cats" name="animal_choice" value="cats">
+                <label for="css">Cats</label><br>
+                <input type="radio" id="smaller pets" name="animal_choice" value="smaller pets">
+                <label for="smaller pets">Smaller pets</label>
+                <input type="radio" id="grazing animals" name="animal_choice" value="grazing animals">
+                <label for="grazing animals">Grazing animals</label>
+            </div><br>
+            <div class="dateSelection">
+                <label for="dateSelection">When are you looking to adopt?*:</label><br>
+                <input type="date" id="dateSelection" name="dateSelection"><br>
+                </div><br>
+            <!---Submit button-->
+            <div class="submitButton" id="submitButton">
+                <input type="submit" value="Submit" onclick="submitInfo()">
+            </div>
+        </form>
+    </main>
+
+    </div>
+
+      <!-- Place before end of body tag Bootstrap JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+
+    <footer>
+      <!--- Flexbox buttons so they can be spaced evenly--->
+     
+    </footer>
+</html>

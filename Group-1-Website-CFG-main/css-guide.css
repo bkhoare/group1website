@@ -1,0 +1,164 @@
+nav {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+
+}
+
+.contactButton {
+    margin-left: 1450px;
+}
+
+.adoptioninfovideo-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+    background-color: black;    
+}
+
+.adoptioninfo-container {
+    padding-bottom: 20px;
+    padding-right: 50px;
+    justify-content: left; 
+    padding-left: -50px;
+}
+
+.Title {
+    padding-left: 60px;
+    padding-top: 100px;
+    color: white;
+}
+.mainTitle {
+    padding-bottom: 20px;
+    color: white;
+}
+
+.paragraph-container {
+    padding-left: 60px;
+
+}
+.paragraph {
+    inline-size: 300px;
+    overflow-wrap: break-word;
+    text-align: center;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    background-color: lightgray;
+    font-size: larger;
+    padding: 10px;
+    font-weight: 500; 
+
+}
+
+.button-container {
+    display: flex;
+    width: auto;
+    justify-content: left;
+    padding-left: 45px;
+    
+}
+
+.button-container > .btn, .btn-outline-dark {
+    color: white;
+}
+
+.button-faqs {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 10px;
+    
+}
+
+.button-meetourteam {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.iframe-container {
+    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 30%;
+    height: 400px;
+    
+}
+
+.testimonialstitle-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-weight: 500;
+    color: white;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.sam {
+    padding: 20px;
+   
+}
+
+.sam:hover {
+    filter: grayscale(100%);
+}
+
+.tom {
+    padding: 20px;
+    
+}
+
+.tom:hover {
+    filter: grayscale(100%);
+}
+
+.nala {
+    padding: 20px;
+   
+}
+
+.nala:hover {
+    filter: grayscale(100%);
+}
+
+.background {
+    background-image: url('assets/dogWithNewcaretaker.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    z-index: -3;
+}
+.allForms {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+  }
+
+  .formtext {
+      justify-content: center;
+  }
+  
+  .requiredfields {
+      color: rgb(6, 95, 197);
+      font-weight: 500;
+  }
+  .nameForms, .emailPhoneForms, .animalChoice, .dateSelection, .submitButton {
+    padding:20px;
+    
+  }
+
+  .submitButton {
+      display: flex;
+      justify-content: center;
+  }
